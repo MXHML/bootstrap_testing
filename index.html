@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.css.map">
+</head>
+<body>
+<h1 class="display-1">Display 1</h1>
+
+<p><mark>Highligthed Text!</mark> No Highlight :(</p>
+
+<p><del>Removed text</del></p>
+
+<p><s>Strikethrough Text</s></p>
+
+<p><u>Underlined Text!</u></p>
+
+<!--Progress bar-->
+<div class="progress">
+    <div class="progress-bar" role="progressbar" style="width:25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
+<!--Toast Menu-->
+<div class="toast text-white bg-dark show" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="false">
+    <div class="toast-header">
+        <strong class="me-auto">Hello World!</strong>
+        <small>1s ago</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+        Hello World!
+    </div>
+</div>
+
+<!--Accordion Item-->
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Hello World!
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          Hello World!
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+</body>
+<script src="bootstrap.js"></script>
+<script src="bootstrap.bundle.js"></script>
+</html>
